@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "dex-submit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Auto-submit Dex login device code flow",
   "applications": {
     "gecko": {
