@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "dex-submit@p-wall.github.io": {
+      "updates": [
+        {
+          "version": "0.1.5",
+          "update_link": "https://github.com/p-wall/dex-submit/releases/download/0.1.5/dex-submit.xpi"
+        }
+      ]
+    }
+  }
+}
