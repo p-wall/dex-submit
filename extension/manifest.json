@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "dex-submit",
+  "version": "0.1.2",
+  "description": "Auto-submit Dex login device code flow",
+  "applications": {
+    "gecko": {
+      "id": "dex-submit@p-wall.github.io"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content_script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "storage"
+  ]
+}

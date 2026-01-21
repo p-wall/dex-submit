@@ -1,0 +1,16 @@
+{
+  "name": "dex-submit",
+  "version": "0.1.2",
+  "description": "Firefox extension that auto-submits Dex login device code flow",
+  "private": true,
+  "engines": {
+    "node": "25.3.0"
+  },
+  "scripts": {
+    "build": "make build",
+    "release": "make release"
+  },
+  "devDependencies": {
+    "web-ext": "^8.3.0"
+  }
+}
