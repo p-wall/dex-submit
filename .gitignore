@@ -1,0 +1,7 @@
+.env
+web-ext-artifacts/
+*.xpi
+node_modules/
+package-lock.json
+tmp/
+extension/.amo-upload-uuid
